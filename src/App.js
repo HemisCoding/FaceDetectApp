@@ -148,7 +148,7 @@ onRouteChange = (route) => {
     const { isSignedIn, imageUrl, route, box } = this.state;
     return (
       <div className="App">
-        <ParticlesBg type="cobweb" num={200} bg={true} />
+        <ParticlesBg type="cobweb" num={100} bg={true} />
         <Navigation isSignedIn={this.state.isSignedIn} onRouteChange={this.onRouteChange}/>
         { route === 'home' 
           ? <div>
